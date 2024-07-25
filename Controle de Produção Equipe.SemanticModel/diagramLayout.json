@@ -1,0 +1,191 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 3.6974009999988766,
+            "y": 0
+          },
+          "nodeIndex": "dCalendario",
+          "nodeLineageTag": "f40319a0-ddb8-4af2-bdcb-7cb97e46f81f",
+          "size": {
+            "height": 182.62009599999988,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1390.9574740000007,
+            "y": 475.77634500000028
+          },
+          "nodeIndex": "dw dAgenteAgidesk",
+          "nodeLineageTag": "4ee148cf-dde4-4da1-aed8-93a4c574b3df",
+          "size": {
+            "height": 207.72024500000009,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 57.113639999998469,
+            "y": 306.12736299999972
+          },
+          "nodeIndex": "dw dClienteAgidesk",
+          "nodeLineageTag": "0bebe636-f525-44c2-b366-c2739e9f55ce",
+          "size": {
+            "height": 160.85780499999998,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 1402.4106769999994,
+            "y": 37.202781000000044
+          },
+          "nodeIndex": "dw dJunkLancamentosAgidesk",
+          "nodeLineageTag": "6be821cc-089c-4c7a-96f3-bb569f6b576d",
+          "size": {
+            "height": 243.48717100000005,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 57.66325099999861,
+            "y": 517.60956800000054
+          },
+          "nodeIndex": "dw dProjetoAgidesk",
+          "nodeLineageTag": "bd3b17b1-ec46-4d9a-96ec-b30ea7da5512",
+          "size": {
+            "height": 205.94868400000007,
+            "width": 234
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 1322.7542460000002,
+            "y": 792.29581200000052
+          },
+          "nodeIndex": "dw dTarefaAgidesk",
+          "nodeLineageTag": "6449e7ea-3d23-429f-a626-3250ccd9db93",
+          "size": {
+            "height": 199.03029300000003,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 707.29588988647777,
+            "y": 228.15714843418328
+          },
+          "nodeIndex": "dw fLancamentosAgidesk",
+          "nodeLineageTag": "2d27ec61-67c2-4219-9752-bd8a92048dbe",
+          "size": {
+            "height": 493.10014900000027,
+            "width": 329.66429400000015
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 61.252210106948354,
+            "y": 803.26771435265778
+          },
+          "nodeIndex": "dw dQuadroAgidesk",
+          "nodeLineageTag": "ec851013-96d5-4817-a5ef-b8e316c68ba0",
+          "size": {
+            "height": 201.6037080000001,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 1909.7427580000021,
+            "y": 662.56381400000078
+          },
+          "nodeIndex": "Dados do Relatório",
+          "nodeLineageTag": "197a23b7-12f1-47b7-868c-d7b22a25fa9c",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 1887.900348000004,
+            "y": 135.09785317632856
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "3ddef252-3415-4c9f-bede-5bf449720f8f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2190.0453570000032,
+            "y": 426.43571117632894
+          },
+          "nodeIndex": "LancamentosDetalhados",
+          "nodeLineageTag": "bad5ce6a-1b9b-44e7-bce6-3072a77ec589",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 897.20178800000213,
+            "y": 1212.84094217633
+          },
+          "nodeIndex": "HorasProjetos",
+          "nodeLineageTag": "d3e91910-32e7-4b6f-a59d-32db19dd102f",
+          "size": {
+            "height": 318.86244000000011,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 2754.3479560000042,
+            "y": 352.43571117632894
+          },
+          "nodeIndex": "PlanejamentoAlocacao",
+          "nodeLineageTag": "0e83cde2-76a6-4baf-b7e5-f3eeede20c22",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 56.447393005377677,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}
