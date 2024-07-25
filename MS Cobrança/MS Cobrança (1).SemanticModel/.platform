@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "MS Cobrança (1)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "07a94b62-2893-4052-b715-8e46812bb5a8"
+  }
+}

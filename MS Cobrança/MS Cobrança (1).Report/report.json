@@ -1,0 +1,145 @@
+{
+  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU05",
+            "path": "BaseThemes/CY24SU05.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "24fb87f0a90019a2e5d3",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"11360c045669001e0726\",\"layouts\":[{\"id\":0,\"position\":{\"x\":195.50151975683892,\"y\":66.13981762917933,\"z\":3000,\"width\":299.5744680851064,\"height\":653.6170212765958,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dCalendario.Ciclo Selecionado\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dCalendario\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ciclo Selecionado\"},\"Name\":\"dCalendario.Ciclo Selecionado\",\"NativeReferenceName\":\"Ciclo Selecionado\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dCalendario\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ciclo Selecionado\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Ciclo Atual'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 653.62,
+          "width": 299.57,
+          "x": 195.50,
+          "y": 66.14,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"685051b7c0dd4dae7c28\",\"layouts\":[{\"id\":0,\"position\":{\"x\":354.41151566469097,\"y\":9.754445385266724,\"z\":5000,\"width\":433.53090601185437,\"height\":300.2201524132092,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"_medidas_revisadas.saldo_all\"},{\"queryRef\":\"_medidas_revisadas.saldo_carteira\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"saldo_all\"},\"Name\":\"_medidas_revisadas.saldo_all\",\"NativeReferenceName\":\"saldo_all\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"saldo_carteira\"},\"Name\":\"_medidas_revisadas.saldo_carteira\",\"NativeReferenceName\":\"saldo_carteira\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.22,
+          "width": 433.53,
+          "x": 354.41,
+          "y": 9.75,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"704d20f172300ce47e1e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":626.6332497911445,\"y\":97.30994152046783,\"z\":1000,\"width\":653.3667502088555,\"height\":172.16374269005848,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"_medidas_revisadas.qt_boletos_aberto\"},{\"queryRef\":\"_medidas_revisadas.qt_boletos_pagos\"}],\"Rows\":[{\"queryRef\":\"dtmCob fAcordo.Flag Acordo\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"qt_boletos_aberto\"},\"Name\":\"_medidas_revisadas.qt_boletos_aberto\",\"NativeReferenceName\":\"qt_boletos_aberto\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"qt_boletos_pagos\"},\"Name\":\"_medidas_revisadas.qt_boletos_pagos\",\"NativeReferenceName\":\"qt_boletos_pagos\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Flag Acordo\"},\"Name\":\"dtmCob fAcordo.Flag Acordo\",\"NativeReferenceName\":\"Flag Acordo\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 172.16,
+          "width": 653.37,
+          "x": 626.63,
+          "y": 97.31,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"8c10a5597147e12de0c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":99.57860615883305,\"y\":97.50405186385737,\"z\":0,\"width\":662.8200972447326,\"height\":567.3905996758509,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dtmCob fAcordo.acordo_key\"},{\"queryRef\":\"Sum(dtmCob fAcordo.Número Acordo)\"},{\"queryRef\":\"dtmCob fAcordo.Número Contrato\"},{\"queryRef\":\"dtmCob fAcordo.Número Parcela\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Número Parcela\"},\"Name\":\"dtmCob fAcordo.Número Parcela\",\"NativeReferenceName\":\"Número Parcela\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Número Acordo\"},\"Name\":\"Sum(dtmCob fAcordo.Número Acordo)\",\"NativeReferenceName\":\"Número Acordo\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Número Contrato\"},\"Name\":\"dtmCob fAcordo.Número Contrato\",\"NativeReferenceName\":\"Número Contrato\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"acordo_key\"},\"Name\":\"dtmCob fAcordo.acordo_key\",\"NativeReferenceName\":\"acordo_key\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[{\"name\":\"Filterd6887b0830619bd46b3d\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dtmCob fAcordo\"}},\"Property\":\"Número Parcela\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Número Parcela\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"''\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 567.39,
+          "width": 662.82,
+          "x": 99.58,
+          "y": 97.50,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"cc6b6d3d062ea0072495\",\"layouts\":[{\"id\":0,\"position\":{\"x\":559.5869191049914,\"y\":220.30981067125646,\"z\":2000,\"width\":337.0740103270224,\"height\":395.45611015490533,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"dtmCob fAcordo.Data Vencimento Boleto\",\"active\":true}],\"Values\":[{\"queryRef\":\"_medidas_revisadas.valor_acordo_aberto\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Data Vencimento Boleto\"},\"Name\":\"dtmCob fAcordo.Data Vencimento Boleto\",\"NativeReferenceName\":\"Data Vencimento Boleto\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"valor_acordo_aberto\"},\"Name\":\"_medidas_revisadas.valor_acordo_aberto\",\"NativeReferenceName\":\"valor_acordo_aberto\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dtmCob fAcordo\"}},\"Property\":\"Data Vencimento Boleto\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Data Vencimento Boleto\"}},\"Right\":{\"DateSpan\":{\"Expression\":{\"Now\":{}},\"TimeUnit\":2}}}}}]},\"type\":\"RelativeDate\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 395.46,
+          "width": 337.07,
+          "x": 559.59,
+          "y": 220.31,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"d5c9301c0d4994377741\",\"layouts\":[{\"id\":0,\"position\":{\"x\":968.261617900172,\"y\":160.8261617900172,\"z\":4000,\"width\":302.9259896729776,\"height\":515.52495697074,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"dtmCob fAcordo.Data Vencimento Boleto\",\"active\":true}],\"Values\":[{\"queryRef\":\"_medidas_revisadas.valor_acordo_aberto\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Data Vencimento Boleto\"},\"Name\":\"dtmCob fAcordo.Data Vencimento Boleto\",\"NativeReferenceName\":\"Data Vencimento Boleto\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"valor_acordo_aberto\"},\"Name\":\"_medidas_revisadas.valor_acordo_aberto\",\"NativeReferenceName\":\"valor_acordo_aberto\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 515.52,
+          "width": 302.93,
+          "x": 968.26,
+          "y": 160.83,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"216L\"}}}}}]}}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "8df1df4b3809ecc135ae",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0990b878c381eef459d5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":8.797250859106528,\"y\":290.30927835051546,\"z\":3000,\"width\":423.3676975945017,\"height\":239.72508591065292,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_medidas_revisadas.%_quebra_valor\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"%_quebra_valor\"},\"Name\":\"_medidas_revisadas.%_quebra_valor\",\"NativeReferenceName\":\"%_quebra_valor\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"%_quebra_valor\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 239.73,
+          "width": 423.37,
+          "x": 8.80,
+          "y": 290.31,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"75d9afd7ccb772136576\",\"layouts\":[{\"id\":0,\"position\":{\"x\":455.13608428446,\"y\":0,\"z\":2000,\"width\":471.9929762949956,\"height\":231.5013169446883,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"_medidas_revisadas.qt_boletos\"}],\"Columns\":[{\"queryRef\":\"dtmCob fAcordo.Flag Acordo\",\"active\":true}],\"Rows\":[{\"queryRef\":\"dtmGlo dNegociador.Nome Equipe\",\"active\":true},{\"queryRef\":\"dtmGlo dNegociador.Descrição Negociador\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"dtmGlo dNegociador\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"qt_boletos\"},\"Name\":\"_medidas_revisadas.qt_boletos\",\"NativeReferenceName\":\"qt_boletos\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Flag Acordo\"},\"Name\":\"dtmCob fAcordo.Flag Acordo\",\"NativeReferenceName\":\"Flag Acordo\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Nome Equipe\"},\"Name\":\"dtmGlo dNegociador.Nome Equipe\",\"NativeReferenceName\":\"Nome Equipe\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Descrição Negociador\"},\"Name\":\"dtmGlo dNegociador.Descrição Negociador\",\"NativeReferenceName\":\"Descrição Negociador\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 231.50,
+          "width": 471.99,
+          "x": 455.14,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"cff8a6cbf58c044bc7c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":601.512027491409,\"y\":335.3951890034364,\"z\":4000,\"width\":423.3676975945017,\"height\":180.34364261168383,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"_medidas_revisadas.receita_total\"},{\"queryRef\":\"_medidas_revisadas.projecao_receita_quebra\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"receita_total\"},\"Name\":\"_medidas_revisadas.receita_total\",\"NativeReferenceName\":\"receita_total\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"projecao_receita_quebra\"},\"Name\":\"_medidas_revisadas.projecao_receita_quebra\",\"NativeReferenceName\":\"projecao_receita_quebra\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 180.34,
+          "width": 423.37,
+          "x": 601.51,
+          "y": 335.40,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"d4538e767b13e3209d05\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.481481481481481,\"y\":0,\"z\":0,\"width\":445.6296296296296,\"height\":164.34567901234567,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dtmCob fAcordo.Flag Acordo\"},{\"queryRef\":\"_medidas_revisadas.qt_boletos\"},{\"queryRef\":\"_medidas_revisadas.qt_boletos_pagos\"},{\"queryRef\":\"_medidas_revisadas.qt_boletos_aberto\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dtmCob fAcordo\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_medidas_revisadas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Flag Acordo\"},\"Name\":\"dtmCob fAcordo.Flag Acordo\",\"NativeReferenceName\":\"Flag Acordo\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"qt_boletos\"},\"Name\":\"_medidas_revisadas.qt_boletos\",\"NativeReferenceName\":\"qt_boletos\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"qt_boletos_pagos\"},\"Name\":\"_medidas_revisadas.qt_boletos_pagos\",\"NativeReferenceName\":\"qt_boletos_pagos\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"qt_boletos_aberto\"},\"Name\":\"_medidas_revisadas.qt_boletos_aberto\",\"NativeReferenceName\":\"qt_boletos_aberto\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 164.35,
+          "width": 445.63,
+          "x": 9.48,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"d9a725c9080e16882c23\",\"layouts\":[{\"id\":0,\"position\":{\"x\":976.5349544072949,\"y\":0,\"z\":1000,\"width\":303.46504559270517,\"height\":164.37689969604864,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dCalendario.Ciclo Selecionado\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dCalendario\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ciclo Selecionado\"},\"Name\":\"dCalendario.Ciclo Selecionado\",\"NativeReferenceName\":\"Ciclo Selecionado\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"selfFilter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dCalendario\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Contains\":{\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ciclo Selecionado\"}},\"Right\":{\"Literal\":{\"Value\":\"'atual'\"}}}},\"Annotations\":{\"PowerBI.MParameterBehavior\":1}}]}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dCalendario\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Ciclo Selecionado\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Ciclo Atual'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 164.38,
+          "width": 303.47,
+          "x": 976.53,
+          "y": 0.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
