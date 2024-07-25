@@ -36480,7 +36480,7 @@
               "",
               "CALCULATE(",
               "    COUNT('dtmCob fAcordo'[Número Acordo]), ",
-              "    FILTER('dtmCob fAcordo', [Data Pagamento Boleto]=BLANK())",
+              "    FILTER('dtmCob fAcordo', [Data Pagamento Boleto]=today())",
               ")",
               ""
             ],
