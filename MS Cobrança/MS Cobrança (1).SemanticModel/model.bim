@@ -29444,23 +29444,23 @@
           }
         ],
         "expression": [
-          "let",
-          "    Fonte = PowerPlatform.Dataflows(null),",
-          "    Workspaces = Fonte{[Id=\"Workspaces\"]}[Data],",
-          "    #\"c91a1156-339f-4a30-87da-a96ff3aaa62a\" = Workspaces{[workspaceId=\"c91a1156-339f-4a30-87da-a96ff3aaa62a\"]}[Data],",
-          "    #\"52f8993a-0b6d-4710-9f5d-22c0071c95e6\" = #\"c91a1156-339f-4a30-87da-a96ff3aaa62a\"{[dataflowId=\"52f8993a-0b6d-4710-9f5d-22c0071c95e6\"]}[Data],",
-          "    #\"dtmGlo dCalendario_\" = #\"52f8993a-0b6d-4710-9f5d-22c0071c95e6\"{[entity=\"dtmGlo dCalendario\",version=\"\"]}[Data],",
-          "    #\"Personalização Adicionada\" = Table.AddColumn(#\"dtmGlo dCalendario_\", \"Personalizar\", each if DateTime.Date(DateTime.LocalNow()) >= [Data Início Ciclo Faturamento] and DateTime.Date(DateTime.LocalNow()) <= [Data Fim Ciclo Faturamento] then \"Ciclo Atual\"",
-          "    else if Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-1) >= [Data Início Ciclo Faturamento] and Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-1) <= [Data Fim Ciclo Faturamento] then \"Ciclo Anterior\"",
-          "    else if Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-2) >= [Data Início Ciclo Faturamento] and Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-2) <= [Data Fim Ciclo Faturamento] then \"Penúltimo Ciclo\"",
-          "    else [Ciclo Faturamento]),",
-          "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Personalização Adicionada\",{{\"Personalizar\", \"Ciclo Selecionado\"}}),",
-          "    #\"Personalização Adicionada1\" = Table.AddColumn(#\"Colunas Renomeadas\",\"AnoMes\", each ([Ano] * 100) + [Mês]),",
-          "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Personalização Adicionada1\",{\"AnoMes\", \"Ciclo Selecionado\"}),",
-          "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Outras Colunas Removidas\",{\"AnoMes\"}),",
-          "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Colunas Removidas\"),",
-          "    #\"Índice Adicionado\" = Table.AddIndexColumn(#\"Duplicatas Removidas\", \"Índice\", 1, 1, Int64.Type)",
-          "in",
+          "let\r",
+          "    Fonte = PowerPlatform.Dataflows(null),\r",
+          "    Workspaces = Fonte{[Id=\"Workspaces\"]}[Data],\r",
+          "    #\"c91a1156-339f-4a30-87da-a96ff3aaa62a\" = Workspaces{[workspaceId=\"c91a1156-339f-4a30-87da-a96ff3aaa62a\"]}[Data],\r",
+          "    #\"52f8993a-0b6d-4710-9f5d-22c0071c95e6\" = #\"c91a1156-339f-4a30-87da-a96ff3aaa62a\"{[dataflowId=\"52f8993a-0b6d-4710-9f5d-22c0071c95e6\"]}[Data],\r",
+          "    #\"dtmGlo dCalendario_\" = #\"52f8993a-0b6d-4710-9f5d-22c0071c95e6\"{[entity=\"dtmGlo dCalendario\",version=\"\"]}[Data],\r",
+          "    #\"Personalização Adicionada\" = Table.AddColumn(#\"dtmGlo dCalendario_\", \"Personalizar\", each if DateTime.Date(DateTime.LocalNow()) >= [Data Início Ciclo Faturamento] and DateTime.Date(DateTime.LocalNow()) <= [Data Fim Ciclo Faturamento] then \"Ciclo Atual\"\r",
+          "    else if Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-1) >= [Data Início Ciclo Faturamento] and Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-1) <= [Data Fim Ciclo Faturamento] then \"Ciclo Anterior\"\r",
+          "    else if Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-2) >= [Data Início Ciclo Faturamento] and Date.AddMonths(DateTime.Date(DateTime.LocalNow()),-2) <= [Data Fim Ciclo Faturamento] then \"Penúltimo Ciclo\"\r",
+          "    else [Ciclo Faturamento]),\r",
+          "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Personalização Adicionada\",{{\"Personalizar\", \"Ciclo Selecionado\"}}),\r",
+          "    #\"Personalização Adicionada1\" = Table.AddColumn(#\"Colunas Renomeadas\",\"AnoMes\", each ([Ano] * 100) + [Mês]),\r",
+          "    #\"Outras Colunas Removidas\" = Table.SelectColumns(#\"Personalização Adicionada1\",{\"AnoMes\", \"Ciclo Selecionado\"}),\r",
+          "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Outras Colunas Removidas\",{\"AnoMes\"}),\r",
+          "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Colunas Removidas\"),\r",
+          "    #\"Índice Adicionado\" = Table.AddIndexColumn(#\"Duplicatas Removidas\", \"Índice\", 1, 1, Int64.Type)\r",
+          "in\r",
           "    #\"Índice Adicionado\""
         ],
         "kind": "m",
@@ -29709,10 +29709,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
           }
         ],
         "columns": [
@@ -33225,10 +33221,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
           }
         ],
         "columns": [
@@ -33717,6 +33709,20 @@
             "formatString": "0",
             "lineageTag": "54e06516-47c3-428b-b134-6e6bde9f9a48",
             "sourceColumn": "_SK Unidade Negociador Acordo",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "_SK Grupo de Trabalho Credor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "574a0637-e293-4a9b-8d63-8a746a5aa452",
+            "sourceColumn": "_SK Grupo de Trabalho Credor",
             "summarizeBy": "sum"
           }
         ],
