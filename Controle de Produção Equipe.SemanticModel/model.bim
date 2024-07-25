@@ -13300,7 +13300,7 @@
             "expression": [
               "",
               "IF(",
-              "    MAX('dw dProjetoAgidesk'[Recorrêcia]) = \"Única\",",
+              "    MAX('dw dProjetoAgidesk'[Recorrêcia]) = \"Únicas\",",
               "    CALCULATE(",
               "        [Horas Abonadas (zero)],",
               "        ALL(dCalendario)",
